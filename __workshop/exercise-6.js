@@ -9,6 +9,9 @@
 // -----------------------------------------------------------------
 function removeEvens(list) {
   // list is an array of numbers
+  return list.filter( function (number) {
+    return number%2 !== 0 ;
+  });
 }
 // -----------------------------------------------------------------
 // Edit only the code between the lines (above)

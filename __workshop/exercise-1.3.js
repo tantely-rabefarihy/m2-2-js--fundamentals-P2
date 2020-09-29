@@ -10,6 +10,8 @@
 // -----------------------------------------------------------------
 function characterCount(string) {
   // complete the function
+  let arrayLength = string.length;
+return arrayLength;
 }
 // -----------------------------------------------------------------
 // Edit only the code between the lines (above)

@@ -7,6 +7,14 @@
 // -----------------------------------------------------------------
 function countBs(str) {
   // str is a string
+  const letterArray = str.split("");
+
+  let count = 0;
+  letterArray.forEach(function (ltr) {
+    if (ltr === "B") count += 1;
+  });
+
+  return count;
 }
 // -----------------------------------------------------------------
 // Edit only the code between the lines (above)

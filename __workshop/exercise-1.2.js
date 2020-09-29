@@ -11,6 +11,8 @@
 // -----------------------------------------------------------------
 function arrOFNames(string) {
   // complete the function
+  nameArray = string.split(",");
+  return nameArray;
 }
 // -----------------------------------------------------------------
 // Edit only the code between the lines (above)

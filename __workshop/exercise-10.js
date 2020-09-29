@@ -9,6 +9,9 @@
 // -----------------------------------------------------------------
 function allLong(list) {
   // list is an array of strings
+  return list.every( function (item) {
+    return item.length > 4 ;
+  });
 }
 // -----------------------------------------------------------------
 // Edit only the code between the lines (above)
