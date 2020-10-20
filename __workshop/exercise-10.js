@@ -9,14 +9,15 @@
 // -----------------------------------------------------------------
 function allLong(list) {
   // list is an array of strings
-  return list.every( function (item) {
-    return item.length > 4 ;
+  return list.every(function (item) {
+    return item.length > 4;
   });
 }
 // -----------------------------------------------------------------
 // Edit only the code between the lines (above)
 
 // Create more test cases.
-
+const nameList = ["Peter", "Tony", "Donald", "Strange", "Bruce"];
+console.log(allLong(nameList));
 // This is needed for automated testing (more on that later)
 module.exports = allLong;

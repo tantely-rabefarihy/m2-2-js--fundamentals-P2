@@ -9,14 +9,15 @@
 // -----------------------------------------------------------------
 function countChar(str, char) {
   // str and char are both strings
-  function countChar(str, char) {
-    // str and char are both strings
-    let count = 0;
-    str.split("").forEach(function (ltr) {
-      if (ltr === char) count += 1;
-    });
-    return count;
-  }
+
+  // str and char are both strings
+  let count = 0;
+  str.split("").forEach(function (ltr) {
+    if (ltr === char) {
+      count += 1;
+    }
+  });
+  return count;
 }
 // -----------------------------------------------------------------
 // Edit only the code between the lines (above)
@@ -24,6 +25,7 @@ function countChar(str, char) {
 console.log(countChar("BananaBabyBubbles", "a"));
 
 // Create more test cases.
-
+console.log(countChar("Barbapapa", "a"));
+console.log(countChar("Kilimanjaro", "i"));
 // This is needed for automated testing (more on that later)
 module.exports = countChar;

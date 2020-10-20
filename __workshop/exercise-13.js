@@ -20,6 +20,6 @@ function countBs(str) {
 // Edit only the code between the lines (above)
 
 // Create more test cases.
-
+console.log(countBs("BarBara"));
 // This is needed for automated testing (more on that later)
 module.exports = countBs;
