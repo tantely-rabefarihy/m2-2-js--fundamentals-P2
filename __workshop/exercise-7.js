@@ -9,9 +9,10 @@
 // -----------------------------------------------------------------
 function keepLong(list) {
   // list is an array of strings
-  const longWords = list.filter( function (item) {
-    return item.length > 5 ;
+  const longWords = list.filter(function (item) {
+    return item.length > 5;
   });
+  return longWords;
 }
 // -----------------------------------------------------------------
 // Edit only the code between the lines (above)
@@ -21,6 +22,16 @@ console.log(
 );
 
 // Create more test cases.
+console.log(
+  keepLong([
+    "Iron-man",
+    "Captain America",
+    "Black Panther",
+    "Thor",
+    "Ant-Man",
+    "Hulk",
+  ])
+);
 
 // This is needed for automated testing (more on that later)
 module.exports = keepLong;

@@ -16,9 +16,9 @@
 // Edit only the code between the lines (below)
 // -----------------------------------------------------------------
 function removeMiddleName(string) {
-let arrayName = string.split(" ");
-let removed = arrayName.splice(1, arrayName.length-2);
-arrayName = arrayName.join(" ");
+  let arrayName = string.split(" ");
+  let removed = arrayName.splice(1, arrayName.length - 2);
+  arrayName = arrayName.join(" ");
   return arrayName;
 }
 
@@ -32,6 +32,7 @@ arrayName = arrayName.join(" ");
 console.log(removeMiddleName("Morty Antoine Smith"));
 
 // Create more test examples.
-
+console.log(removeMiddleName("Joseph Peter"));
+console.log(removeMiddleName("Pat"));
 // This is needed for automated testing (more on that later)
 module.exports = removeMiddleName;

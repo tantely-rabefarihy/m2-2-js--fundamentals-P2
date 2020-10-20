@@ -11,7 +11,7 @@
 // -----------------------------------------------------------------
 function arrOFNames(string) {
   // complete the function
-  nameArray = string.split(",");
+  nameArray = string.split(", ");
   return nameArray;
 }
 // -----------------------------------------------------------------
@@ -27,6 +27,6 @@ console.log(
   )
 );
 // Create more test examples.
-
+console.log(arrOFNames("Orange PineApple, Slow Juice, Tall Fruit"));
 // This is needed for automated testing (more on that later)
 module.exports = arrOFNames;

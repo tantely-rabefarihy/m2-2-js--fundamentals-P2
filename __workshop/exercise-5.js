@@ -30,6 +30,9 @@ console.log(itemIsPresent(myArray, "funky")); // true
 console.log(itemIsPresent(myArray, "elephant")); // false
 
 // Create more test cases
+const food = ["banana", "orange", "pineapple", "strawberry"];
 
+console.log(itemIsPresent(food, "orange"));
+console.log(itemIsPresent(food, "coconut"));
 // This is needed for automated testing (more on that later)
 module.exports = itemIsPresent;
